@@ -863,7 +863,7 @@
 	}
 
 	a {
-		color: #3D84AE;
+		color: #1D506E;
 	}
 
 	sub {
@@ -1189,8 +1189,8 @@
 				-webkit-transition: opacity 0.25s ease-in-out;
 				-ms-transition: opacity 0.25s ease-in-out;
 				transition: opacity 0.25s ease-in-out;
-				color: #fff;
-				opacity: 0.15;
+				color: #000;
+				opacity: 0.45;
 			}
 
 				ul.social li a:before {
@@ -1400,6 +1400,7 @@
 			color: #FFF;
 			outline: 0;
 			font-family: 'Shrikhand', cursive;
+			text-shadow: 5px 5px 5px rgba(0,0,0,0.50);
 		}
 
 /* Nav */
@@ -1408,10 +1409,12 @@
 		position: absolute;
 		right: 0;
 		top: -0.25em;
+		font-size: 1.1em;
 	}
 
 		#nav > ul > li {
 			float: left;
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.50);
 		}
 
 			#nav > ul > li:last-child {
@@ -1433,7 +1436,7 @@
 			background: #65BAE9;
 			border-radius: 6px;
 			color: #FFF;
-			font-weight: 700;
+			font-weight: 900;
 		}
 
 		#nav > ul > li > ul {
@@ -1461,10 +1464,11 @@
 			border-top: solid 1px;
 			border-color: rgba(255, 255, 255, 0.1);
 			border-bottom: 0;
-			font-size: 0.90em;
+			font-size: 1.1em;
 			text-decoration: none;
 			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 1);
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.50);
 		}
 
 		.dropotron li:first-child > a, .dropotron li:first-child > span {
@@ -1505,12 +1509,12 @@
 
 		#banner .container {
 			background: #fff;
-			border-radius: 8px 8px 0px 0px;
+			/*  border-radius: 8px 8px 0px 0px;  */
 			overflow: hidden;
 		}
 
 		#banner header {
-			padding: 3em 0em 3em 0em;
+			padding: 2em 0em 2em 0em;
 			text-align: center;
 		}
 
@@ -1676,6 +1680,16 @@
 		.wrapper-style2 .container {
 			background: #4694C0;
 		}
+
+	.wrapper-style3 {
+		background: #000;
+	}
+
+	.wrapper-style4 {
+		background: #3E3E3E;
+	}
+
+
 
 /* Normal */
 
@@ -2074,9 +2088,11 @@
 /* my edits */
 
 .description {
-	font-size: 1.25em;
-	padding-top: 3.4em;
+	font-size: 1.5em;
+	padding-top: 2.13em;
 	color: #fff;
+	line-height: 1.6em;
+	text-shadow: 2px 2px 8px rgba(0,0,0,0.50);
 
 }
 
@@ -2086,6 +2102,8 @@
   display: block;
   margin: auto;
   font-size: 1.2em;
+  color: #000;
+  font-weight: 400;
 }
 
 .catdogpic {
@@ -2104,9 +2122,11 @@
 }
 
 .onereview {
-	color: #bbb;
+	color: rgba(255,255,255,.8);
 	font-size: 1em;
 	font-weight: 300;
+	text-shadow: 1px 1px 15px rgba(0,0,0,0.50);
+
 }
 
 
