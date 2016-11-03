@@ -109,15 +109,24 @@
 
 <!--  HERE IS WHERE I NEED HELP  -->
 
-						<!-- here's where popup image works -->
+						<!-- here's where popup image works
 								<span class="image featured" style="width: 60%; margin: auto;">
 									<a class="image-link" href="images/trailerart.jpg"  title="Dogs, Cats, and Scapegoats">
 										<img src="images/trailerart.jpg" alt="">
 									</a>
-								</span>
+								</span> -->
+
 						<!-- here's where i'm trying to get video popup working -->
 								<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Open YouTube video</a><br>
+							</br>
 
+						<!-- here's where hopefully it works -->
+							<span class="image featured" style="width: 60%; margin: auto;">
+									<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+										<img src="images/trailerart.jpg" alt="">
+
+									</a>
+								</span>
 
 
 							</div>
@@ -179,8 +188,9 @@
       </script>
 
       <script>
+
       (function($) {
-				$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+				$('.popup-youtube').magnificPopup({
 					disableOn: 700,
 					type: 'iframe',
 					mainClass: 'mfp-fade',
