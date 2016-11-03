@@ -1356,6 +1356,9 @@
 				background: #5D5F6A;
 			}
 
+
+
+
 /* Icons */
 
 	.icon {
@@ -1778,6 +1781,8 @@
 				border-radius: 5px;
 			}
 
+
+
 		/* Lists */
 
 			ul.style2 {
@@ -2147,8 +2152,41 @@
 	text-align: center;
 }
 
+.button2 {
+		-moz-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+		-webkit-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+		-ms-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+		transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+		position: relative;
+		display: inline-block;
+		padding: 0.25em 1.5em 0.25em 1.5em;
+		border: 2px solid #fff;
+		border-radius: 6px;
+		background: rbga(255, 255, 255 0)
+		text-align: center;
+		text-decoration: none;
+		font-weight: 700;
+		color: #FFF;
+		cursor: pointer;
+	}
 
+.button2 {
+		display: block;
+		margin: 0.5em 1em 0.5em 1em !important;
+		padding: 0.5em 2em 0.5em 2em !important;
+		text-align: center;
+		line-height: 2em;
+		max-width: 320px;
+		border-radius: 5px;
+	}
 
+.playbuttons {
+		text-align: center;
+}
+
+.actualbutton {
+	display: inline-block;
+}
 
 
 

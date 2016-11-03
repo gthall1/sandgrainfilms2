@@ -10,6 +10,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+
+    <script src="assets/js/jquery.min.js"></script>
+
     <link rel="stylesheet" href="assets/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
@@ -107,7 +110,7 @@
         </div>  -->
 
 
-      <!-- Trailer -->
+      <!-- Trailer
         <div class="wrapper wrapper-style2">
           <div class="container" style="text-align: center; padding: 0em 5em 3em 5em;">
             <section>
@@ -119,7 +122,7 @@
               </div>
             </section>
           </div>
-        </div>
+        </div>  -->
 
 
       <!-- Description -->
@@ -137,21 +140,25 @@
               <li class="first">
                 <p class="getintouch" style="margin: auto;">"I found Beyond Closed Doors to be both heartful and thoughtful, both compassionate and clear. If you have any interest at all in the welfare of the animals whose flesh and milk we eat, I think you'll love this film." <span class="onereview">-- John Robbins, author Diet For A New America, The Food Revolution, and Healthy At 100.</span></p>
               </li>
+            </ul>
 
+            <ul class="playbuttons">
+              <li class="actualbutton"><a class="popup-youtube button2" href="https://www.youtube.com/embed/rg2CjCWuRfc?rel=0&amp;showinfo=0">Play Trailer</a></li>
+              <li class="actualbutton"><a class="popup-youtube button2" href="https://www.youtube.com/embed/GR90hcvYu3A?rel=0&amp;showinfo=0">Play Movie</a></li>
             </ul>
           </div>
         </div>
 
 
 
-      <!--  feature film -->
+      <!--  feature film
         <div id="main">
           <div class="wrapper wrapper-style5">
             <div class="container" style="text-align: center;">
 
               <div class="row">
 
-                <!-- Content -->
+
                   <div id="content" class="12u 12u(mobile)">
                     <section>
                       <header>
@@ -166,7 +173,7 @@
 
             </div>
           <div class="wrapper wrapper-style5">
-        </div>
+        </div>  -->
 
 
         <!-- featured professionals -->
@@ -286,6 +293,20 @@
           gallery:{
             enabled:true
           }
+        });
+      })(jQuery);
+      </script>
+
+      <script>
+      (function($) {
+        $('.popup-youtube').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
+
+          fixedContentPos: false
         });
       })(jQuery);
       </script>
